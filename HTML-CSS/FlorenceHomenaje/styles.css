@@ -1,0 +1,97 @@
+/* Establecer un tamaño de fuente base de 10 px nos facilita los cálculos rem.Información: 1rem === 10px, 1.5rem === 15px, 2rem === 20px y así sucesivamente */
+html {
+  font-size: 10px;
+  margin: auto;
+  background-color: #e2e3a3;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: normal;
+  text-align: justify;
+  color: rgba(14, 13, 13, 0.897);
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#madre {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: red;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #e8e8ca;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #e5bab9;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  text-align: center;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+strong {
+  color: #5ba0d1;
+}
+
+#titulo {
+  text-align: justify;
+}
+
+#poema {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+h4 {
+  text-align: center;
+}
